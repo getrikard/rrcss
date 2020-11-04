@@ -1,11 +1,8 @@
 {
   "name": "rrcss",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Rikards Råtøffe CSS",
   "main": "rrcss.css",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/getrikard/rrcss"
@@ -14,6 +11,5 @@
     "css"
   ],
   "author": "Rikard Karlsen <rikard@getacademy.no>",
-  "license": "ISC",
-  "dependencies": {}
+  "license": "ISC"
 }
