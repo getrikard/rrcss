@@ -16,7 +16,7 @@ button {
     padding: 5px;
     cursor: pointer;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 button:hover {
