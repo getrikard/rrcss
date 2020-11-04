@@ -1,0 +1,42 @@
+/* Rikards Råtøffe CSS */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    border: 2px solid;
+    border-radius: 2px;
+    background-color: white;
+    padding: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+button.primary {
+    color: green;
+    border-color: green;
+}
+
+button.primary:hover {
+    background-color: green;
+    color: white;
+    transition: 0.1s ease-in;
+}
+
+input {
+    border: 2px solid;
+    background-color: white;
+    padding: 5px;
+}
+
+input:focus {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
