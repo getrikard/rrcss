@@ -11,5 +11,11 @@
     "css"
   ],
   "author": "Rikard Karlsen <rikard@getacademy.no>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.29.0"
+  },
+  "scripts": {
+    "build": "sass rrcss.scss rrcss.css"
+  }
 }
