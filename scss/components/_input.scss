@@ -1,0 +1,12 @@
+@use "../utils/_mixins";
+
+input {
+  @include mixins.common-input;
+
+  border: 2px solid;
+  background-color: white;
+}
+
+input:focus {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
