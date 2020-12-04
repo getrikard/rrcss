@@ -2,7 +2,7 @@
   "name": "rrcss",
   "version": "1.0.3",
   "description": "Rikards Råtøffe CSS",
-  "main": "rrcss.css",
+  "main": "css/rrcss.css",
   "repository": {
     "type": "git",
     "url": "https://github.com/getrikard/rrcss"
@@ -16,6 +16,6 @@
     "sass": "^1.29.0"
   },
   "scripts": {
-    "build": "sass scss/rrcss.scss rrcss.css"
+    "build": "sass scss/rrcss.scss css/rrcss.css"
   }
 }
