@@ -1,9 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #333333;
+  line-height: 1.5;
+}
+
 h1 {
+  // font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', Times, serif;
   font-size: 2.125em;
-  font-weight: 500;
+  font-weight: semi-bold;
 }
 
 p {
   text-align: justify;
   margin: 3em 0;
+  max-width: 70ch;
+  text-align: justify;
+}
+
+p:first-of-type::first-letter {
+  display: block;
+  float: left;
+  font-size: 350%;
+  margin-top: 0.08em;
+  margin-right: 0.125em;
 }

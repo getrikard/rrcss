@@ -1,3 +1,13 @@
 @use "_button";
 @use "_input";
 @use "_text";
+
+img,
+figure {
+  max-width: 100%;
+}
+
+figure {
+  text-align: center;
+  font-size: 0.875;
+}

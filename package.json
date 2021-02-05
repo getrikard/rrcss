@@ -16,6 +16,7 @@
     "sass": "^1.29.0"
   },
   "scripts": {
-    "build": "sass scss/rrcss.scss css/rrcss.css"
+    "build": "sass scss/rrcss.scss css/rrcss.css",
+    "watch": "sass scss/rrcss.scss css/rrcss.css --watch"
   }
 }
